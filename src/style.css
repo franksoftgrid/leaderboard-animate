@@ -1,0 +1,59 @@
+.listing {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.listing li {
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    background-color: #ededed;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: normal;
+}
+li.leaderboard > div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    width: 100%;
+}
+li.leaderboard mark {
+    background-color: #0000;
+}
+li.leaderboard mark .img-thumbnail {
+    width: 26px;
+    padding: 0;
+    border-radius: 100px;
+    height: 26px;
+    object-fit: contain;
+}
+.num_list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+li.leaderboard .num_list span {
+    padding: 2px;
+    background-color: #68b3ff;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    line-height: 10px;
+    font-size: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+li.leaderboard:nth-child(1) .num_list span {
+    background-color: red;
+}
+li.leaderboard:nth-child(2) .num_list span  {
+    background-color: #fd8000;
+}
+li.leaderboard:nth-child(3) .num_list span {
+    background-color: #fdd200;
+}
